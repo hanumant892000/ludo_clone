@@ -5,10 +5,10 @@
 }
 
 :root{
-    --bgred:red;
-    --bggreen:green;
-    --bgyellow:yellow;
-    --bgblue:blue;
+    --bgred:rgb(255, 152, 152);
+    --bggreen:rgb(142, 255, 142);
+    --bgyellow:rgb(255, 255, 143);
+    --bgblue:rgb(156, 156, 255);
 }
 
 .bgred{
@@ -29,7 +29,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(236, 245, 255);
+    background-image: conic-gradient(rgba(255, 0, 0, 0.411), rgba(0, 128, 0, 0.356), rgba(0, 0, 255, 0.384), rgba(255, 255, 0, 0.438),rgba(255, 0, 0, 0.308));
 }
 
 
@@ -93,7 +93,7 @@ section{
 .ludobtn{
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+    border-radius: 10px;
     border: 3px solid black;
 }
 
